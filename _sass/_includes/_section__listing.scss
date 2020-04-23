@@ -79,9 +79,18 @@
     margin-bottom: 16px;
   }
 
-  .project__link {
-    display: block;
+  .project__links {
+    display: flex;
     margin-top: 24px;
+
+    .code-links {
+      margin-right: 1.5em;
+    }
+
+    .project__link {
+      // display: block;
+      padding-right: 0.5em;
+    }
   }
 
   .pagination {

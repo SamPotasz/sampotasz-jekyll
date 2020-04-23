@@ -9,7 +9,15 @@
 
   .post__subtitle {
     margin-bottom: 48px;
-    max-width: 556px;
+    max-width: 90%//556px;
+    
+  }
+
+  .post__subtitle__links {
+    margin-top: 10px;
+    a { 
+      margin-right: 10px;
+    }
   }
 
   .post__content {

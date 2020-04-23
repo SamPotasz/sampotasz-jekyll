@@ -1,8 +1,8 @@
 ---
 title: Wide Open Games
-subtitle: UX developer for subscription-based startup
+subtitle: Let's roll some pure Javascript!
 date: 2016-01-01
-description: In 2016, I rolled my own paywall site with Hugo and pure Javascript and sent it out to subscribers. I learned a ton along the way about product development, customer development, and how much is feasible to do by onself.
+description: No frameworks, no SPAs, no nothing. Just a static-site generator and Javascript to create this subscription-based eZine I created and ran back in 2017.
 featured_image: demo.jpg
 accent_color: '#4C60E6'
 gallery_images:
@@ -10,52 +10,13 @@ gallery_images:
 #   - demo.jpg
 #   - demo.jpg
 ---
+## A membership site. A blog. And a games portal.
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+[Wide Open Games](https://wideopengames.com) was a lot of things, and it was all running on simple Javascript. Even most of the games themselves - complicated as some of them are - are built in JS so they can run smoothly in the browser.
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+Under the hood, the site was built using [Hugo](https://gohugo.io/) as a static site generator and used [aMember](https://www.amember.com/) to handle memberships. A little trickery to keep certain sections of the site free to the public and certain sections behind the paywall was all that was needed for the paywall to function successfully.
 
-![](/images/demo.jpg)
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-You can create lists:
-
-* Simple bulleted lists
-* Like this one
-* Are cool
-
-And:
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-#### Image galleries
-
-Here's a really neat custom feature we added – galleries:
+Production-wise, it was a lot to run solo, but I'm incredibly proud of the results. And very much glad to be doing other work as part of larger teams again :-)
 
 {% include post-components/gallery.html
 	columns = 2
@@ -63,50 +24,3 @@ Here's a really neat custom feature we added – galleries:
 	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
 	"
 %}
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a simple Liquid snippet in your post to create a masonry grid image layout:
-
-{% raw %}
-```liquid
-{% include post-components/gallery.html
-	columns = 2
-	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
-	"
-%}
-```
-{% endraw %}
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
-
-#### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-{% include post-components/gallery.html
-	columns = 1
-	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg
-	"
-%}
-
-#### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-{% include post-components/video.html
-	url = "https://player.vimeo.com/video/270725085?color=6c6e95&title=0&byline=0"
-	full_width = true
-%}
-
-### Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-Why not put them to use on your new website?
-
-<a href="https://jekyllthemes.io/theme/made-portfolio-jekyll-theme" class="button--fill">Get This Theme</a>

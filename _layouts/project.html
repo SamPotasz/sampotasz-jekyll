@@ -10,7 +10,20 @@ layout: default
 
 		<div class="wrap">
 			<h1 class="post__title">{{ page.title }}</h1>
-			<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2>
+			<h2 class="post__subtitle subtitle--light">
+				{{ page.subtitle }}
+				{% if page.codeUrl or page.liveUrl %}
+					<div class="post__subtitle__links">
+						{% if page.codeUrl %}
+							<a href="{{ page.codeUrl }}"><i class="fab fa-github" aria-hidden="true"></i>View source</a>
+						{% endif %}
+						{% if page.liveUrl %}
+							<a href="{{ page.liveUrl }}"><i class="fa fa-play-circle" aria-hidden="true"></i>View live</a>
+						{% endif %}
+					</div>
+				{% endif %}
+			</h2>
+			
 		</div>
 
 		<img src="{{ '/images/projects/' | relative_url}}{{ page.featured_image }}" class="post__featured-image">

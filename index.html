@@ -1,8 +1,8 @@
 ---
 layout: default
-overtitle: Front-end work to make you smile :-)
-title: Now let's do it together.
-description: Are you a hiring manager or engineering lead? Check out the projects below for a sense of how I might help your team.
+overtitle: Technical wizardry + empathic design =
+title: Making products that serve.
+description: Let's work together. Check out the projects below then reach out to talk about how I can help your team.
 featured_image: /images/social.jpg
 ---
 
@@ -46,8 +46,21 @@ featured_image: /images/social.jpg
 					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
 					<p class="project__description --small">
 						{{ project.description }}
-						<a href="{{ project.url | relative_url }}" class="project__link button--text --right"
-							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View More</a>
+						<div class="project__links">
+							{% if project.codeUrl or project.liveUrl %}
+							<div class="code-links">
+								{% if project.codeUrl %}
+									<a href="{{ project.codeUrl }}" class="project__link"><i class="fab fa-github" aria-label="view source"></i></a>
+								{% endif %}
+								{% if project.liveUrl %}
+									<a href="{{ project.liveUrl }}" class="project__link"><i class="fa fa-play-circle" aria-label="view live"></i></a>
+								{% endif %}
+							</div>
+							{% endif %}
+							<a href="{{ project.url | relative_url }}" class="project__link read-more button--text --right"
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">Read More</a>
+						</div>
+						
 					</p>
 				</div>
 			</article>
