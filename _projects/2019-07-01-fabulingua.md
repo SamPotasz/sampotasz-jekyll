@@ -3,12 +3,13 @@ title: Fabulingua
 subtitle: Technical leadership & product strategy
 date: 2020-02-01 00:00:00
 description: "With this early-stage edtech startup, I jumped in on everything from coding early prototypes, to running at-home tests with parents and kids, to hiring the first full-time engineers. </br>Now FabuLingua enjoys a 5-star rating on the AppStore."
-featured_image: fabulingua.png
 accent_color: '#4C60E6'
+liveUrl: https://apps.apple.com/us/app/fabulingua-learn-spanish/id1435947003
+featured_image: fabulingua/title.jpeg
 gallery_images:
-  - fabulingua.png
-#   - demo.jpg
-#   - demo.jpg
+  - fabulingua/title.jpeg
+  - fabulingua/overworld.jpeg
+  - fabulingua/rani-pg2.jpeg
 ---
 
 # From ignored to 5-stars
@@ -20,6 +21,9 @@ We had work to do.
 ---
 
 As a consultant working with the non-technical founders of Fabulingua, it was my job to take an early prototype of the Spanish-language-learning app and turn it into something worth paying for. We needed a plan, and we needed to execute on that plan.
+
+
+![](/images/projects/fabulingua/rani-pg1.jpeg)
 
 ### Research and Problem Statement
 
@@ -36,6 +40,12 @@ So we set about adding some magic to the app. And it started right at the homesc
 In the old version of the app, you entered into a 3-D rendered library, and to select a story to read, you pulled a book off the shelf. The new homescreen is like entering Disneyland: all your favorite characters are there waiting for you. They're not in books anymore - you can walk right up to them and say hello.
 
 Through in-person testing, kids found this much more inviting. And moreover, because the characters on the homescreen now spoke out loud, kids were hearing Spanish much sooner upon entering the app. Even if they never entered a story and just hung out on the homescreen, they were having fun and learning sentences.
+
+{% include post-components/gallery.html
+	columns = 2
+	images = "/images/projects/fabulingua/overworld.jpeg, /images/projects/fabulingua/menu.jpeg
+	"
+%}
 
 ### Technical Leadership
 
