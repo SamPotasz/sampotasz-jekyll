@@ -3,12 +3,13 @@ title: Wide Open Games
 subtitle: Let's roll some pure Javascript!
 date: 2016-01-01
 description: No frameworks, no SPAs, no nothing. Just a static-site generator and Javascript to create this subscription-based eZine I created and ran back in 2017.
-featured_image: demo.jpg
+featured_image: wog/wog-index.jpeg
 accent_color: '#4C60E6'
+liveUrl: https://wideopengames.com
 gallery_images:
-  - demo.jpg
-#   - demo.jpg
-#   - demo.jpg
+  - wog/wog-index.jpeg
+  - wog/wog-inching.gif
+  - wog/Still.jpg
 ---
 ## A membership site. A blog. And a games portal.
 
@@ -21,6 +22,9 @@ Production-wise, it was a lot to run solo, but I'm incredibly proud of the resul
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
+	images = "/images/projects/wog/wog-inching.gif,
+	/images/projects/wog/Secret.gif,
+	/images/projects/wog/gifs/OrbitsZoomed.gif,
+	/images/projects/wog/gifs/Action.gif
 	"
 %}
