@@ -73,6 +73,7 @@ font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700|Karla:400,700" rel="stylesheet">'
   title_font: 'Rubik, sans-serif'
   body_font: '"Karla", sans-serif'
+  code_font: '"Ubunto Mono", sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:

@@ -19,7 +19,7 @@ layout: default
 		<div class="wrap">
 
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
-				{{ page.content }}
+				{{ page.content | markdownify }}
 			</article>
 
 			<div class="post__more grid">

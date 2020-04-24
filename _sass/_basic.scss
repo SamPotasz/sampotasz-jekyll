@@ -19,6 +19,10 @@ body {
 	color: $text-dark-color;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
+
+	code {
+		font-family: monospace;
+	}
 }
 
 hr {
@@ -26,7 +30,6 @@ hr {
 	height: 2px;
 	background-color: $border-color;
 }
-
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page loading
