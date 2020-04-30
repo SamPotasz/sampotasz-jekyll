@@ -1,5 +1,6 @@
 ---
 title: Subscriptions in React and Phaser.io
+permalink: /blog/observables/
 date: 2020-04-21 00:00:00
 published: false
 description: 

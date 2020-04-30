@@ -1,6 +1,7 @@
 ---
 title: Dream Team
 subtitle: Unity prototype for social and emotional learning
+permalink: /project/dream-team/
 date: 2020-01-01 00:00:00
 description: 
 published: false

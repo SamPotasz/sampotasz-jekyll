@@ -1,5 +1,6 @@
 ---
 title: Styled components in RCT Clothes
+permalink: /blog/styled-components/
 date: 2020-04-20 00:00:00
 description: Thinking of switching over your React project to use 'styled-components'? Some tips to consider and get you started.
 # featured_image: '/images/demo.jpg'

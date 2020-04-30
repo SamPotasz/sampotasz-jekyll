@@ -1,7 +1,7 @@
-site: Made Jekyll Theme
+site: SamPotasz.com
 
-url: 
-baseurl: 
+url: https://sampotasz.com
+baseurl:
 
 collections:
   pages:

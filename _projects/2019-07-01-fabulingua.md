@@ -1,6 +1,7 @@
 ---
 title: Fabulingua
 subtitle: Technical leadership & product strategy
+permalink: /project/fabulingua/
 date: 2020-02-01 00:00:00
 description: "With this early-stage edtech startup, I jumped in on everything from coding early prototypes, to running at-home tests with parents and kids, to hiring the first full-time engineers. </br>Now FabuLingua enjoys a 5-star rating on the AppStore."
 accent_color: '#4C60E6'

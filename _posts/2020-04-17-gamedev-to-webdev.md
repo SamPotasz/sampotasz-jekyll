@@ -1,6 +1,7 @@
 ---
 title: Switching from Gamedev to Webdev
 date: 2020-04-17 00:00:00
+permalink: /blog/gamedev-to-webdev/
 featured_image: /images/posts/maxresdefault.jpg
 description: You've got the programming skills. What's it take to apply to them to the native web landscape?
 ---

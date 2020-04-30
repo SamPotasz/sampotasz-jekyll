@@ -2,6 +2,7 @@
 title: Wide Open Games
 subtitle: Let's roll some pure Javascript!
 date: 2016-01-01
+permalink: /project/wide-open-games/
 description: No frameworks, no SPAs, no nothing. Just a static-site generator and Javascript to create this subscription-based eZine I created and ran back in 2017.
 featured_image: wog/wog-index.jpeg
 accent_color: '#4C60E6'
